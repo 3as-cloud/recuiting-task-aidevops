@@ -5,23 +5,22 @@
 Evaluate the candidate's ability to:
 
 - Utilize agentic AI workflow tools / framework to process and analyze data.
-- Adhere to specified booking guidelines.
 - Implement automation for monitoring and notification.
-- Prepare a webhook call from an AI workflow.
+- Prepare a webhook call from an AI workflow to notify engineers for non compliant bookings.
 
 ## Task Description
 
 You are provided with:
 
-- **Booking Data**: A list of consulting bookings in CSV format: bookings.csv
-- **Booking Guidelines**: A document outlining the policies and standards for bookings: booking_guideline.md
+- **Booking Data**: A list of consulting bookings in CSV format: `bookings.csv`
+- **Booking Guidelines**: A document outlining the policies and standards for bookings for a specific customer Alpha Edge: `booking_guideline_alpha_edge.md`
 
 **Your task is to:**
 
 1. **Data Analysis**:
 
-   - Use agentic AI workflow tools to import and parse the booking data.
-   - Review each booking against the booking guidelines.
+   - Use agentic AI workflow tools / framework to import and parse the booking data.
+   - Review each booking of alpha edge project against the booking guidelines.
    - Identify any bookings that are non-compliant or have discrepancies.
 
 2. **Automation Workflow**:
@@ -31,15 +30,10 @@ You are provided with:
 
 3. **Notification Preparation**:
 
-   - Prepare a webhook call within the AI workflow to send a message when non-compliant bookings are detected.
+   - Prepare a webhook call within the AI workflow to send a message when non-compliant bookings are detected. You can imagine the webhook interface yourself or check slack or teams for specifications.
    - The message should include:
      - Details of the non-compliant bookings.
      - A brief explanation of the compliance issues.
-
-## Example for further clarification
-....
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
 
 ## Technical Requirements
 
