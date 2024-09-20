@@ -38,6 +38,8 @@ You are provided with:
 
 ## Example for further clarification
 ....
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
 
 ## Technical Requirements
 
@@ -84,10 +86,6 @@ You are provided with:
 - **Documentation and Communication**:
   - Clarity and completeness of the documentation.
   - Ability to explain your thought process and decisions.
-
-## Timeline
-
-- **Duration**: Please complete and submit the task within **5 days** of receiving it.
 
 ## Submission Instructions
 
